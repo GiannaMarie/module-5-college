@@ -1,0 +1,127 @@
+/* General setup */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-size: 10px;
+  line-height: 160%;
+  letter-spacing: 2px;
+}
+
+/* Layout */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section:nth-of-type(3) {
+        flex: 2 200px;
+      }
+
+
+section {
+flex: 1 200px;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+aside {
+
+}
+
+
+footer {
+
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* YOU CAN WRITE YOUR CODE BELOW HERE */
+
+p, ul, li {
+
+  font-family: 'Playfair Display', serif;
+}
+
+h1, h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1.25rem;
+}
+
+
+nav a {
+  outline: none;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 2px;
+  display: block;
+  width: 30%;
+  text-align: center;
+  margin-bottom: 5%;
+  line-height: 2;
+}
+
+nav li {
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+p:first-of-type {
+  text-indent: 20px;
+}
+
+p:nth-of-type(3) {
+  text-indent: 20px;
+}
+
+a {
+  text-decoration: underline;
+  outline: none;
+}
+
+a:link {
+  color: #a66;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+a:active {
+  color: orange;
+}
+
+li, ul {
+  letter-spacing: 2px;
+  line-height: 160%;
+  list-style-type: circle;
+}
